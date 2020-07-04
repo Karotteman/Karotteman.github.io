@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <!-- Site made with Mobirise Website Builder v4.12.3, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.12.3, mobirise.com">
@@ -21,8 +20,10 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
-  <script src="TemplateData/UnityProgress.js"></script>
-  <script src="Build/UnityLoader.js"></script>
+  <link rel="stylesheet" href="UnityTemplate/style.css">
+
+  <script src="UnityTemplate/UnityProgress.js"></script>
+  <script src="project/Build_Brook/UnityLoader.js"></script>
   <script>
     var unityInstance = UnityLoader.instantiate("unityContainer", "project/Build_Brook/brook_build.json", {onProgress: UnityProgress});
   </script>
@@ -56,7 +57,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item dropdown">
-                    <a class="nav-link link text-white dropdown-toggle display-4" href="https://mobirise.com" data-toggle="dropdown-submenu" aria-expanded="true"><span class="mbri-opened-folder mbr-iconfont mbr-iconfont-btn"></span>
+                    <a class="nav-link link text-white dropdown-toggle display-4" data-toggle="dropdown-submenu" aria-expanded="true"><span class="mbri-opened-folder mbr-iconfont mbr-iconfont-btn"></span>
                         
                         Projets</a><div class="dropdown-menu"><a class="text-white dropdown-item display-4" href="brook.html">Brook</a></div>
                 </li>
@@ -80,7 +81,7 @@
             <div class="image-block" style="width: 100%;">
                 
                 <div class="webgl-content">
-                    <div id="unityContainer" style="width: 960px; height: 600px"></div>
+                    <div id="unityContainer" style="width: 100%; height: 100%"></div>
                     <div class="footer">
                     <div class="webgl-logo"></div>
                     <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
@@ -101,7 +102,7 @@
             <div class="col-12 col-md-3">
                 <div class="media-wrap">
                     
-                        <img src="assets/images/karotteman-alpha-122x122.png" alt="Mobirise" title="">
+                        <img src="assets/images/karotteman-alpha-122x122.png" title="">
                     
                 </div>
             </div>
