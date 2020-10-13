@@ -1,0 +1,16 @@
+{
+"companyName": "Karotteman",
+"productName": "Placeholder Runnner",
+"productVersion": "1.0",
+"dataUrl": "Build_Runner.data.unityweb",
+"wasmCodeUrl": "Build_Runner.wasm.code.unityweb",
+"wasmFrameworkUrl": "Build_Runner.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.14f1"
+}
