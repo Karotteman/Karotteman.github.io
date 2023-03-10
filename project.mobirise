@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Portfolio",
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -72,7 +72,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "screenshot": "screenshot.png",
-    "mbrsiteDomain": "dqeyp5dmgf",
+    "mbrsiteDomain": "0n1dy5j2yj",
     "publishType": "local",
     "publishPath": "file:///D:/Users/Karotteman/Desktop/portfolio",
     "usedWebp": false
@@ -11449,7 +11449,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/capture%20d%E2%80%99%C3%A9cran%202023-03-09%20194141-1022x573.png",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -11506,7 +11506,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/capture%20d%E2%80%99%C3%A9cran%202023-03-09%20195119-1021x576.png",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -11922,7 +11922,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/3cdd-gd1-baptistericher-page-1-2000x1125.png",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -11979,7 +11979,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/3cdd-gd1-baptistericher-page-15-2000x1125.png",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
