@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Portfolio",
-    "currentPage": "aboutme.html",
+    "currentPage": "projets.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -3444,7 +3444,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/pr01-1920x1080.png",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -3458,27 +3458,7 @@
                 "textTitle": "PLACEHOLDER RUNNER",
                 "overlay": true,
                 "contentAlign": "right",
-                "text": "Infinite runner réalisé dans le cadre d'un projet de programation<br>à Isart Digital&nbsp;Montréal en 2020.<br><br><i>An ancient relic</i><br><br><br><br><br><br><br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Jouez</a> ",
-                "overlayOpacity": "0.2"
-              },
-              {
-                "image": "",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": true,
-                "videoUrl": "https://youtu.be/rnZRcRZUFNI",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "alt": "",
-                "title": "",
-                "textTitle": "PLACEHOLDER RUNNER",
-                "overlay": false,
-                "contentAlign": "right",
-                "text": "Infinite runner réalisé dans le cadre d'un <b>projet de programation</b><br>à Isart Digital&nbsp;Montréal en <b>2020</b>.<br><br><br><br><br><br><br><br><br><br>",
+                "text": "Infinite runner réalisé dans le cadre d'un projet de programation<br>à Isart Digital&nbsp;Montréal en 2020.<br><br><i>An ancient relic</i><br><br><br><br><br><br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Jouez</a> ",
                 "overlayOpacity": "0.2"
               }
@@ -14066,7 +14046,7 @@
           },
           "_name": "header2",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Text 1\" name=\"showText1\" checked>\n        <input type=\"checkbox\" title=\"Show Text 2\" name=\"showText2\">\n        <input type=\"checkbox\" title=\"Show Text 3\" name=\"showText3\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/pixel-open-door-435x705.png\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <script type=\"text/javascript\">\n                function playGame() {\n                    if (document.getElementById(\"fq\").value.toUpperCase()==\"PLACEHOLDER RUNNER\") {\n                        location.href = 'https://www.https://karotteman.github.io/aboutme.html';\n                    } else{\n                        location.href = 'https://www.https://karotteman.github.io/false.html';\n                    }\n                }\n                </script>\n            <div class=\"mbr-white col-md-10\">\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText1\" data-app-selector=\".mbr-text, .mbr-section-btn\">Which game do you want to play?<br><br><input type=\"text\" id=\"fq\"><br></p>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText2\" data-app-selector=\".mbr-text, .mbr-section-btn\">QUESTION 2: <input type=\"text\" id=\"q2\" onchange=\"keyTry()\"></p>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText3\" data-app-selector=\".mbr-text, .mbr-section-btn\">QUESTION 3: <input type=\"text\" id=\"q3\" onchange=\"keyTry()\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" style=\"margin-top:10%; margin-bottom:-10%;\"><button id=\"keyHole\" class=\"btn btn-md btn-primary-outline\" href=\"https://mobiri.se\" onclick=\"playGame()\">PLAY</button></div>\n            </div>\n        </div>\n    </div>\n    \n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Text 1\" name=\"showText1\" checked>\n        <input type=\"checkbox\" title=\"Show Text 2\" name=\"showText2\">\n        <input type=\"checkbox\" title=\"Show Text 3\" name=\"showText3\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/pixel-open-door-435x705.png\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <script type=\"text/javascript\">\n                function playGame() {\n                    if (document.getElementById(\"fq\").value.toUpperCase()==\"PLACEHOLDER RUNNER\") {\n                        location.href = 'https://www.https://karotteman.github.io/aboutme.html';\n                    } else{\n                        location.href = 'https://www.https://karotteman.github.io/false.html';\n                    }\n                }\n                </script>\n            <div class=\"mbr-white col-md-10\">\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText1\" data-app-selector=\".mbr-text, .mbr-section-btn\">Which relic do you want to play?<br><br><input type=\"text\" id=\"fq\"><br></p>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText2\" data-app-selector=\".mbr-text, .mbr-section-btn\">QUESTION 2: <input type=\"text\" id=\"q2\" onchange=\"keyTry()\"></p>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText3\" data-app-selector=\".mbr-text, .mbr-section-btn\">QUESTION 3: <input type=\"text\" id=\"q3\" onchange=\"keyTry()\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" style=\"margin-top:10%; margin-bottom:-10%;\"><button id=\"keyHole\" class=\"btn btn-md btn-primary-outline\" href=\"https://mobiri.se\" onclick=\"playGame()\">PLAY</button></div>\n            </div>\n        </div>\n    </div>\n    \n</section>",
           "_cid": "txVny9NrAf",
           "_anchor": "header2-8l",
           "_protectedParams": [],
